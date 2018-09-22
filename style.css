@@ -1,0 +1,55 @@
+.jumbotron {
+    background-image: url('img/jumbo.jpg');
+    width: 100%;
+    height: 450;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.jumbotron h1 {
+    position: relative;
+    font-family: "Jokerman";
+    font-size: 200;
+}
+
+.jumbotron p {
+    position: relative;
+    font-size: 30;
+}
+
+section {
+    min-height: 550px;
+}
+
+hr {
+    border-top: 3px solid;
+}
+
+.tentang p {
+    text-align: center;
+    font-size: 24;
+}
+
+.galery {
+    background-color: #eeeeee;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 24;
+    padding-top: 30px;
+}
